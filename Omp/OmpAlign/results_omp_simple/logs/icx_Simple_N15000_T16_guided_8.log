@@ -1,0 +1,3 @@
+N=15000 | threads=16 | elapsed=169.592012
+N=15000 | threads=16 | elapsed=169.639522
+N=15000 | threads=16 | elapsed=169.425283

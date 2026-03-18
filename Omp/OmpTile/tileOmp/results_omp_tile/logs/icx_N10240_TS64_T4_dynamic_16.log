@@ -1,0 +1,3 @@
+N=10240 | TILE=64 | threads=4 | elapsed=55.274022
+N=10240 | TILE=64 | threads=4 | elapsed=54.606073
+N=10240 | TILE=64 | threads=4 | elapsed=54.843376

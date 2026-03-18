@@ -1,0 +1,14 @@
+-r
+/VM/stud/S5845105/Telegram Desktop/Base/Base/adv_roof/O2/baseICX6144/e000/trc000
+-quiet
+-cs-file
+/VM/stud/S5845105/Telegram Desktop/Base/Base/adv_roof/O2/baseICX6144/e000/callstacks.def
+--cs-mode=no-count-loops,no-count-flops,stl-profiling,stack-stitching
+--target-loops=n
+--count-flops
+--benchmarks=dram,mcdram,cpu_cache,flop_peak,int,
+--jit-profiling
+--gpu-kernel-of-interest=*
+--target-gpu=0:0:2.0
+--
+./base_code

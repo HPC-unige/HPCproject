@@ -1,0 +1,44 @@
+# callstacks file version: 8
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi	projection_roi
+         1	        -1	      5152	    0	      0	                                  _start	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5152	34	0	1	0	0	0	0	0	0	0	0
+         2	        -1	      5184	    0	      0	                                  _start	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5152	34	0	1	0	0	0	0	0	0	0	0
+         3	        40	    160516	    1	      1	[Loop at line 347 in __libc_start_main_impl]	/lib/x86_64-linux-gnu/libc.so.6	160486,160616	126,59	0	9	0	0	0	0	0	0	0	0
+         4	         3	    160329	    0	      1	                  __libc_start_call_main	/lib/x86_64-linux-gnu/libc.so.6	160208	172	0	11	0	0	0	0	0	0	0	0
+         5	         4	      5511	    0	      0	                                    main	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5392	762	0	2	0	0	0	0	0	0	0	0
+         6	         5	     13018	    0	      0	                  __intel_avx_rep_memset	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	12752	4295	0	3	0	0	0	0	0	0	0	0
+         7	        22	      5731	    1	      0	               [Loop at line 33 in main]	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5584	206	5790	4	0	0	0	0	0	0	0	0
+         8	        22	      5718	    1	      0	               [Loop at line 33 in main]	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5584	206	5790	4	0	0	0	0	0	0	0	0
+         9	        27	      5944	    1	      0	               [Loop at line 49 in main]	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5904	68	5972	6	0	0	0	0	0	0	0	0
+        10	        27	      5927	    1	      0	               [Loop at line 49 in main]	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5904	68	5972	6	0	0	0	0	0	0	0	0
+        11	        27	      5948	    1	      0	               [Loop at line 49 in main]	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5904	68	5972	6	0	0	0	0	0	0	0	0
+        12	        27	      5952	    1	      0	               [Loop at line 49 in main]	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5904	68	5972	6	0	0	0	0	0	0	0	0
+        13	        27	      5931	    1	      0	               [Loop at line 49 in main]	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5904	68	5972	6	0	0	0	0	0	0	0	0
+        14	        27	      5959	    1	      0	               [Loop at line 49 in main]	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5904	68	5972	6	0	0	0	0	0	0	0	0
+        15	        27	      5904	    1	      0	               [Loop at line 49 in main]	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5904	68	5972	6	0	0	0	0	0	0	0	0
+        16	        27	      5914	    1	      0	               [Loop at line 49 in main]	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5904	68	5972	6	0	0	0	0	0	0	0	0
+        17	        27	      5937	    1	      0	               [Loop at line 49 in main]	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5904	68	5972	6	0	0	0	0	0	0	0	0
+        18	        27	      5910	    1	      0	               [Loop at line 49 in main]	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5904	68	5972	6	0	0	0	0	0	0	0	0
+        19	        27	      5920	    1	      0	               [Loop at line 49 in main]	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5904	68	5972	6	0	0	0	0	0	0	0	0
+        20	        26	      5893	    1	      0	               [Loop at line 47 in main]	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5872	123	5995	7	0	0	0	0	0	0	0	0
+        21	         4	      5568	    0	      0	                                    main	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5392	762	0	2	0	0	0	0	0	0	0	0
+        22	        21	      5584	    1	      0	                [Loop at line 0 in main]	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5568	256	5824	5	0	0	0	0	0	0	0	0
+        23	         4	      5731	    0	      0	                                    main	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5392	762	0	2	0	0	0	0	0	0	0	0
+        24	         4	      5718	    0	      0	                                    main	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5392	762	0	2	0	0	0	0	0	0	0	0
+        25	         4	      5856	    0	      0	                                    main	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5392	762	0	2	0	0	0	0	0	0	0	0
+        26	        25	      5872	    1	      0	               [Loop at line 46 in main]	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5856	166	6022	8	0	0	0	0	0	0	0	0
+        27	        26	      5904	    1	      0	               [Loop at line 47 in main]	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5872	123	5995	7	0	0	0	0	0	0	0	0
+        28	         4	      5944	    0	      0	                                    main	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5392	762	0	2	0	0	0	0	0	0	0	0
+        29	         4	      5927	    0	      0	                                    main	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5392	762	0	2	0	0	0	0	0	0	0	0
+        30	         4	      5948	    0	      0	                                    main	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5392	762	0	2	0	0	0	0	0	0	0	0
+        31	         4	      5952	    0	      0	                                    main	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5392	762	0	2	0	0	0	0	0	0	0	0
+        32	         4	      5931	    0	      0	                                    main	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5392	762	0	2	0	0	0	0	0	0	0	0
+        33	         4	      5959	    0	      0	                                    main	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5392	762	0	2	0	0	0	0	0	0	0	0
+        34	         4	      5904	    0	      0	                                    main	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5392	762	0	2	0	0	0	0	0	0	0	0
+        35	         4	      5914	    0	      0	                                    main	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5392	762	0	2	0	0	0	0	0	0	0	0
+        36	         4	      5937	    0	      0	                                    main	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5392	762	0	2	0	0	0	0	0	0	0	0
+        37	         4	      5910	    0	      0	                                    main	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5392	762	0	2	0	0	0	0	0	0	0	0
+        38	         4	      5920	    0	      0	                                    main	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5392	762	0	2	0	0	0	0	0	0	0	0
+        39	         4	      5893	    0	      0	                                    main	/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code	5392	762	0	2	0	0	0	0	0	0	0	0
+        40	         2	    160486	    0	      1	                  __libc_start_main_impl	/lib/x86_64-linux-gnu/libc.so.6	160384	321	0	10	0	0	0	0	0	0	0	0
+        41	         2	    160516	    0	      1	                  __libc_start_main_impl	/lib/x86_64-linux-gnu/libc.so.6	160384	321	0	10	0	0	0	0	0	0	0	0
+        42	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	0	0	13	0	0	0	0	0	0	0	0

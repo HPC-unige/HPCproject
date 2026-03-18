@@ -1,0 +1,136 @@
+#!/bin/bash
+set -e
+set -o pipefail
+
+SRC_FILE="new1.c"
+OUT_DIR="results_heavy"
+CSV_FILE="${OUT_DIR}/heavy_metrics.csv"
+TMP_TXT="mat-res.txt"
+
+COMPILERS=("gcc" "icx" "icc")
+SIZES=(1024 2048 3072 4096 6144 8192 10240 12288)
+OPT_LEVELS=("-O3" "-O2")
+RUNS=3
+
+TEST_CASES=(
+  "01_Restrict|-DOPT_RESTRICT"
+  "02_Align|-DOPT_ALIGN"
+  "03_Ultimate|-DOPT_RESTRICT -DOPT_ALIGN"
+)
+
+mkdir -p "${OUT_DIR}/bin" "${OUT_DIR}/asm"
+
+if [[ ! -f "$CSV_FILE" ]]; then
+  echo "Compiler,Opt,Test,N,MinTime_Sec,MeanTime_Sec,GFLOPS_Min,GFLOPS_Mean,FMA,Aligned,Unaligned,Status" > "$CSV_FILE"
+fi
+
+already_done() {
+  local comp="$1"
+  local opt="$2"
+  local test="$3"
+  local n="$4"
+  grep -Fq "$comp,$opt,$test,$n," "$CSV_FILE"
+}
+
+declare -A REF_HASHES
+
+echo "=== HEAVY BENCHMARK STARTED (RESUME ENABLED) ==="
+echo "CSV: $CSV_FILE"
+
+for comp in "${COMPILERS[@]}"; do
+  if ! command -v "$comp" &> /dev/null; then
+    echo "Skipping $comp (not found)"
+    continue
+  fi
+
+  for opt in "${OPT_LEVELS[@]}"; do
+    FLAGS="$opt -std=c11 -DENABLE_TIME -fopenmp-simd"
+
+    if [[ "$comp" == "gcc" ]]; then
+      FLAGS="$FLAGS -march=native"
+    elif [[ "$comp" == "icx" || "$comp" == "icc" ]]; then
+      FLAGS="$FLAGS -xHost"
+    fi
+
+    echo ""
+    echo "► Compiler: ${comp^^} | Opt: $opt"
+    printf "%-12s | %-6s | %-11s | %-11s | %-11s | %-11s | %-18s | %-6s\n" \
+      "Config" "N" "Min(s)" "Mean(s)" "GF_Min" "GF_Mean" "SIMD(FMA|A/U)" "Check"
+    echo "-------------------------------------------------------------------------------------------------------------"
+
+    for case_def in "${TEST_CASES[@]}"; do
+      test_name="${case_def%%|*}"
+      test_macros="${case_def##*|}"
+      clean_name="${test_name#*_}"
+
+      for n in "${SIZES[@]}"; do
+        if already_done "$comp" "$opt" "$clean_name" "$n"; then
+          echo "Skip (already done): $comp $opt $clean_name N=$n"
+          continue
+        fi
+
+        bin_path="${OUT_DIR}/bin/${comp}_${clean_name}_${opt}_${n}"
+        asm_path="${OUT_DIR}/asm/${comp}_${clean_name}_${opt}_${n}.s"
+
+        $comp $FLAGS -DVERIFY -DN=$n $test_macros "$SRC_FILE" -o "$bin_path" -lm 2>/dev/null
+
+        objdump -d "$bin_path" > "$asm_path"
+
+        fma_cnt=$(grep -cE '\bvfmadd[a-z0-9]*\b' "$asm_path" 2>/dev/null || true)
+        align_cnt=$(grep -cE '\b(v?movapd|v?movaps)\b' "$asm_path" 2>/dev/null || true)
+        unalign_cnt=$(grep -cE '\b(v?movupd|v?movups)\b' "$asm_path" 2>/dev/null || true)
+        fma_cnt=${fma_cnt:-0}
+        align_cnt=${align_cnt:-0}
+        unalign_cnt=${unalign_cnt:-0}
+
+        rm -f "$TMP_TXT"
+        "$bin_path" > /dev/null 2>&1
+
+        chk_status="SKIP"
+        if [[ -f "$TMP_TXT" ]]; then
+          curr_hash=$(md5sum "$TMP_TXT" | awk '{print $1}')
+          ref_key="${clean_name}_${n}"
+          if [[ -z "${REF_HASHES[$ref_key]+x}" ]]; then
+            REF_HASHES[$ref_key]="$curr_hash"
+            chk_status="REF"
+          else
+            [[ "$curr_hash" == "${REF_HASHES[$ref_key]}" ]] && chk_status="PASS" || chk_status="FAIL"
+          fi
+        fi
+
+        min_time="999999.0"
+        sum_time="0"
+        valid_runs=0
+
+        for ((i=0; i<RUNS; i++)); do
+          raw_time=$(taskset -c 0 "$bin_path" 2>&1 | grep -oP 'elapsed=\K[0-9.]+' | head -1 || true)
+          if [[ -n "$raw_time" ]]; then
+            min_time=$(awk -v a="$raw_time" -v b="$min_time" 'BEGIN {print (a<b)?a:b}')
+            sum_time=$(awk -v s="$sum_time" -v a="$raw_time" 'BEGIN {print s+a}')
+            valid_runs=$((valid_runs+1))
+          fi
+        done
+
+        if [[ "$valid_runs" -eq 0 ]]; then
+          mean_time="999999.0"
+        else
+          mean_time=$(awk -v s="$sum_time" -v c="$valid_runs" 'BEGIN {print s/c}')
+        fi
+
+        gflops_min=$(echo "scale=3; (2 * $n^3) / ($min_time * 1000000000)" | bc -l)
+        gflops_mean=$(echo "scale=3; (2 * $n^3) / ($mean_time * 1000000000)" | bc -l)
+
+        simd_str="${fma_cnt} | ${align_cnt}/${unalign_cnt}"
+
+        printf "%-12s | %-6s | %-11s | %-11s | %-11s | %-11s | %-18s | %-6s\n" \
+          "$clean_name" "$n" "$min_time" "$mean_time" "$gflops_min" "$gflops_mean" "$simd_str" "$chk_status"
+
+        echo "$comp,$opt,$clean_name,$n,$min_time,$mean_time,$gflops_min,$gflops_mean,$fma_cnt,$align_cnt,$unalign_cnt,$chk_status" >> "$CSV_FILE"
+      done
+    done
+  done
+done
+
+echo ""
+echo "✔ Heavy run complete: $CSV_FILE"
+rm -f "$TMP_TXT"

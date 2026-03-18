@@ -1,0 +1,5 @@
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+elapsed=107.454083
+elapsed=114.156229
+elapsed=117.690037
+elapsed=98.674813

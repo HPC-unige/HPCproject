@@ -1,0 +1,3 @@
+N=12288 | TILE=128 | threads=16 | elapsed=42.430183
+N=12288 | TILE=128 | threads=16 | elapsed=43.658435
+N=12288 | TILE=128 | threads=16 | elapsed=42.713143

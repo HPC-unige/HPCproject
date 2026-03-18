@@ -1,0 +1,3 @@
+N=10240 | threads=4 | elapsed=104.870253
+N=10240 | threads=4 | elapsed=104.997091
+N=10240 | threads=4 | elapsed=105.119165

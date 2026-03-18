@@ -1,0 +1,9 @@
+chmod +x scripts/master_base_bench.sh
+
+./scripts/master_base_bench.sh
+
+cd plots
+python3 plot_base.py
+
+sudo apt update
+sudo apt install bc tree python3-pandas python3-matplotlib -y

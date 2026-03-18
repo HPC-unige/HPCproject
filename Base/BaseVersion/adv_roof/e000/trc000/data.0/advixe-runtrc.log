@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2026/03/06 14:14:30</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>bandwidth-measurement-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>bandwidth-measurement-done</type>
+</msg>
+<msg id="4" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="5" tool="runtool">
+  <type>marker-file</type>
+  <arg>/VM/stud/S5845105/Telegram Desktop/Base/Base/adv_roof/e000/trc000/trc000.advixe</arg>
+</msg>
+<msg id="6" tool="trc">
+  <type>PROCESS_START</type>
+  <arg>/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code</arg>
+  <arg>58682</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Mar  6 14:14:41 2026</timestamp>
+</msg>
+<msg id="7" tool="trc">
+  <type>PROCESS_ANALYSIS_MODE</type>
+  <arg>full</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Mar  6 14:14:41 2026</timestamp>
+</msg>
+<msg id="8" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code</arg>
+  <arg>0x400000</arg>
+  <arg>0x40bc4f</arg>
+  <arg>yes</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Mar  6 14:14:41 2026</timestamp>
+</msg>
+<msg id="9" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <arg>0x7f0e4266a000</arg>
+  <arg>0x7f0e4269e2d7</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Mar  6 14:14:41 2026</timestamp>
+</msg>
+<msg id="10" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <arg>0x7ffef90f6000</arg>
+  <arg>0x7ffef90f6d7b</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Mar  6 14:14:41 2026</timestamp>
+</msg>
+<msg id="11" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libm.so.6</arg>
+  <arg>0x7f0e2d392000</arg>
+  <arg>0x7f0e2d47110f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Mar  6 14:14:41 2026</timestamp>
+</msg>
+<msg id="12" tool="trc">
+  <type>LOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libc.so.6</arg>
+  <arg>0x7f0e2d0b1000</arg>
+  <arg>0x7f0e2d291f4f</arg>
+  <arg>no</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Mar  6 14:14:41 2026</timestamp>
+</msg>
+<msg id="13" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Mar  6 14:14:53 2026</timestamp>
+</msg>
+<msg id="14" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib64/ld-linux-x86-64.so.2</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Mar  6 14:14:53 2026</timestamp>
+</msg>
+<msg id="15" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>[vdso]</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Mar  6 14:14:53 2026</timestamp>
+</msg>
+<msg id="16" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libm.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Mar  6 14:14:53 2026</timestamp>
+</msg>
+<msg id="17" tool="trc">
+  <type>UNLOAD_MODULE</type>
+  <arg>/lib/x86_64-linux-gnu/libc.so.6</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Mar  6 14:14:53 2026</timestamp>
+</msg>
+<msg id="18" tool="trc">
+  <type>PROCESS_FINISH</type>
+  <arg>/VM/stud/S5845105/Telegram Desktop/Base/Base/base_code</arg>
+  <arg>58682</arg>
+  <arg>0x0</arg>
+  <severity>INFO</severity>
+  <timestamp>Fri Mar  6 14:14:53 2026</timestamp>
+</msg>
+<msg id="19" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="20" tool="runtool">
+  <type>marker-file</type>
+  <arg>/VM/stud/S5845105/Telegram Desktop/Base/Base/adv_roof/e000/trc000/trc000.advixe</arg>
+</msg>
+<msg id="21" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="22" tool="runtool">
+  <type>log-end</type>
+  <arg>2026/03/06 14:14:57</arg>
+</msg>
+
+</log>
+

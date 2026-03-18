@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<bag xmlns:boolean="http://www.w3.org/2001/XMLSchema#boolean" xmlns:int="http://www.w3.org/2001/XMLSchema#int" int:version="1">
+ <SurveyView int:survey_view_int_operations_mode="0">
+  <BottomUpGrid>
+   <ColumnStructure DefaultColumnLayout="Default"/>
+  </BottomUpGrid>
+  <TopDownGrid>
+   <ColumnStructure DefaultColumnLayout="Top Down"/>
+   <ColumnWidth int:fdVectInfoVectWidths="105" int:fdVectInfoInstSetsAdvanced="115" int:fdCompilerOptDetails="112" int:fdCompilerOptDetailsHLOTransformations="120" int:fdCompilerOptDetailsHLOUnrollFactor="100" int:fdCompilerOptDetailsMultiPumpingFactor="147" int:fdCompilerOptDetailsVectInfo="112" int:fdCompilerOptDetailsHLOMsg="112" int:fdVectInfoInstClasses="154" int:fdVectInfoVectDataTypes="63"/>
+   <ColumnState boolean:fdCompilerOptDetails="false" boolean:fdVectInfoInstSetAnalysis="true"/>
+  </TopDownGrid>
+  <RooflineChart rooflineState="{&quot;threadCount4RoofIdx&quot;:0,&quot;roofsState&quot;:{&quot;drambandwidth&quot;:{&quot;selected&quot;:true,&quot;hidden&quot;:false},&quot;l1bandwidth&quot;:{&quot;selected&quot;:true,&quot;hidden&quot;:false},&quot;scalarl1bandwidth&quot;:{&quot;selected&quot;:false,&quot;hidden&quot;:true},&quot;l2bandwidth&quot;:{&quot;selected&quot;:false,&quot;hidden&quot;:false},&quot;scalarl2bandwidth&quot;:{&quot;selected&quot;:false,&quot;hidden&quot;:true},&quot;l3bandwidth&quot;:{&quot;selected&quot;:false,&quot;hidden&quot;:false},&quot;scalarl3bandwidth&quot;:{&quot;selected&quot;:false,&quot;hidden&quot;:true},&quot;spvectorfmapeak&quot;:{&quot;selected&quot;:false,&quot;hidden&quot;:false},&quot;dpvectorfmapeak&quot;:{&quot;selected&quot;:false,&quot;hidden&quot;:false},&quot;scalaraddpeak&quot;:{&quot;selected&quot;:true,&quot;hidden&quot;:false},&quot;spvectoraddpeak&quot;:{&quot;selected&quot;:false,&quot;hidden&quot;:false},&quot;dpvectoraddpeak&quot;:{&quot;selected&quot;:false,&quot;hidden&quot;:false},&quot;integerscalaraddpeak&quot;:{&quot;selected&quot;:true,&quot;hidden&quot;:false},&quot;int64vectoraddpeak&quot;:{&quot;selected&quot;:false,&quot;hidden&quot;:false},&quot;int32vectoraddpeak&quot;:{&quot;selected&quot;:false,&quot;hidden&quot;:false}},&quot;stackViewVisible&quot;:false,&quot;compareItems&quot;:[{&quot;caption&quot;:&quot;baseICX12288&quot;,&quot;path&quot;:&quot;/VM/stud/S5845105/Telegram Desktop/Base/Base/adv_roof/O2/baseICX12288/e000/e000.advixeexp&quot;},{&quot;caption&quot;:&quot;baseICX6144&quot;,&quot;path&quot;:&quot;/VM/stud/S5845105/Telegram Desktop/Base/Base/adv_roof/O2/baseICX6144/e000/e000.advixeexp&quot;}]}"/>
+ </SurveyView>
+ <workflow int:selected="4" boolean:accuracyEnable="true">
+  <pmRoofline>
+   <checked boolean:a1="true" boolean:a3="true" boolean:a6="false" boolean:a7="false"/>
+  </pmRoofline>
+ </workflow>
+ <FilterView boolean:VectorizedButtonChecked="true" boolean:NotVectorizedButtonChecked="true" boolean:FakeLoopButtonChecked="false" boolean:LibrariesButtonChecked="false" ModuleFilterValue="All Modules" SourceFilterValue="All Sources" LoopModeFilterValue="Loops And Functions" ThreadFilterValue="All Threads"/>
+</bag>
