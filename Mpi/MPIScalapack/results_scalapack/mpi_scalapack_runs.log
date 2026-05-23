@@ -1,0 +1,915 @@
+BUILD: compiler=mpiicx N=6144 TILE=32 FLAGS=-O3 -xHost
+icx: error: no such file or directory: 'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicx N=6144 TILE=32
+BUILD: compiler=mpiicx N=8192 TILE=32 FLAGS=-O3 -xHost
+icx: error: no such file or directory: 'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicx N=8192 TILE=32
+BUILD: compiler=mpiicx N=10240 TILE=32 FLAGS=-O3 -xHost
+icx: error: no such file or directory: 'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicx N=10240 TILE=32
+BUILD: compiler=mpiicx N=12288 TILE=32 FLAGS=-O3 -xHost
+icx: error: no such file or directory: 'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicx N=12288 TILE=32
+BUILD: compiler=mpiicx N=15000 TILE=32 FLAGS=-O3 -xHost
+icx: error: no such file or directory: 'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicx N=15000 TILE=32
+BUILD: compiler=mpiicx N=6144 TILE=64 FLAGS=-O3 -xHost
+icx: error: no such file or directory: 'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicx N=6144 TILE=64
+BUILD: compiler=mpiicx N=8192 TILE=64 FLAGS=-O3 -xHost
+icx: error: no such file or directory: 'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicx N=8192 TILE=64
+BUILD: compiler=mpiicx N=10240 TILE=64 FLAGS=-O3 -xHost
+icx: error: no such file or directory: 'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicx N=10240 TILE=64
+BUILD: compiler=mpiicx N=12288 TILE=64 FLAGS=-O3 -xHost
+icx: error: no such file or directory: 'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicx N=12288 TILE=64
+BUILD: compiler=mpiicx N=15000 TILE=64 FLAGS=-O3 -xHost
+icx: error: no such file or directory: 'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicx N=15000 TILE=64
+BUILD: compiler=mpiicx N=6144 TILE=128 FLAGS=-O3 -xHost
+icx: error: no such file or directory: 'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicx N=6144 TILE=128
+BUILD: compiler=mpiicx N=8192 TILE=128 FLAGS=-O3 -xHost
+icx: error: no such file or directory: 'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicx N=8192 TILE=128
+BUILD: compiler=mpiicx N=10240 TILE=128 FLAGS=-O3 -xHost
+icx: error: no such file or directory: 'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicx N=10240 TILE=128
+BUILD: compiler=mpiicx N=12288 TILE=128 FLAGS=-O3 -xHost
+icx: error: no such file or directory: 'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicx N=12288 TILE=128
+BUILD: compiler=mpiicx N=15000 TILE=128 FLAGS=-O3 -xHost
+icx: error: no such file or directory: 'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicx N=15000 TILE=128
+BUILD: compiler=mpiicc N=6144 TILE=32 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+icc: error #10236: File not found:  'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicc N=6144 TILE=32
+BUILD: compiler=mpiicc N=8192 TILE=32 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+icc: error #10236: File not found:  'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicc N=8192 TILE=32
+BUILD: compiler=mpiicc N=10240 TILE=32 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+icc: error #10236: File not found:  'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicc N=10240 TILE=32
+BUILD: compiler=mpiicc N=12288 TILE=32 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+icc: error #10236: File not found:  'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicc N=12288 TILE=32
+BUILD: compiler=mpiicc N=15000 TILE=32 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+icc: error #10236: File not found:  'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicc N=15000 TILE=32
+BUILD: compiler=mpiicc N=6144 TILE=64 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+icc: error #10236: File not found:  'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicc N=6144 TILE=64
+BUILD: compiler=mpiicc N=8192 TILE=64 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+icc: error #10236: File not found:  'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicc N=8192 TILE=64
+BUILD: compiler=mpiicc N=10240 TILE=64 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+icc: error #10236: File not found:  'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicc N=10240 TILE=64
+BUILD: compiler=mpiicc N=12288 TILE=64 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+icc: error #10236: File not found:  'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicc N=12288 TILE=64
+BUILD: compiler=mpiicc N=15000 TILE=64 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+icc: error #10236: File not found:  'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicc N=15000 TILE=64
+BUILD: compiler=mpiicc N=6144 TILE=128 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+icc: error #10236: File not found:  'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicc N=6144 TILE=128
+BUILD: compiler=mpiicc N=8192 TILE=128 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+icc: error #10236: File not found:  'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicc N=8192 TILE=128
+BUILD: compiler=mpiicc N=10240 TILE=128 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+icc: error #10236: File not found:  'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicc N=10240 TILE=128
+BUILD: compiler=mpiicc N=12288 TILE=128 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+icc: error #10236: File not found:  'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicc N=12288 TILE=128
+BUILD: compiler=mpiicc N=15000 TILE=128 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+icc: error #10236: File not found:  'src/matmul_mpi_scalapack.c'
+BUILD FAILED: compiler=mpiicc N=15000 TILE=128
+BUILD: compiler=mpiicx N=6144 TILE=32 FLAGS=-O3 -xHost
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=6144 TILE=32 RANKS=1
+[mpi-scalapack-dgemm] N=6144 block=32 grid=1x1 ranks=1 elapsed=7.460969 s gflops=62.171
+DONE: compiler=mpiicx N=6144 TILE=32 RANKS=1 TIME=7.460969 GFLOPS=62.171
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=6144 TILE=32 RANKS=2
+[mpi-scalapack-dgemm] N=6144 block=32 grid=2x1 ranks=2 elapsed=4.039770 s gflops=114.822
+DONE: compiler=mpiicx N=6144 TILE=32 RANKS=2 TIME=4.039770 GFLOPS=114.822
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=6144 TILE=32 RANKS=4
+[mpi-scalapack-dgemm] N=6144 block=32 grid=2x2 ranks=4 elapsed=2.373423 s gflops=195.438
+DONE: compiler=mpiicx N=6144 TILE=32 RANKS=4 TIME=2.373423 GFLOPS=195.438
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=6144 TILE=32 RANKS=8
+[mpi-scalapack-dgemm] N=6144 block=32 grid=4x2 ranks=8 elapsed=2.531194 s gflops=183.256
+DONE: compiler=mpiicx N=6144 TILE=32 RANKS=8 TIME=2.531194 GFLOPS=183.256
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=6144 TILE=32 RANKS=16
+[mpi-scalapack-dgemm] N=6144 block=32 grid=4x4 ranks=16 elapsed=2.445604 s gflops=189.669
+DONE: compiler=mpiicx N=6144 TILE=32 RANKS=16 TIME=2.445604 GFLOPS=189.669
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=6144 TILE=32 RANKS=24
+[mpi-scalapack-dgemm] N=6144 block=32 grid=6x4 ranks=24 elapsed=2.218359 s gflops=209.099
+DONE: compiler=mpiicx N=6144 TILE=32 RANKS=24 TIME=2.218359 GFLOPS=209.099
+BUILD: compiler=mpiicx N=8192 TILE=32 FLAGS=-O3 -xHost
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=8192 TILE=32 RANKS=1
+[mpi-scalapack-dgemm] N=8192 block=32 grid=1x1 ranks=1 elapsed=18.379510 s gflops=59.823
+DONE: compiler=mpiicx N=8192 TILE=32 RANKS=1 TIME=18.379510 GFLOPS=59.823
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=8192 TILE=32 RANKS=2
+[mpi-scalapack-dgemm] N=8192 block=32 grid=2x1 ranks=2 elapsed=11.265348 s gflops=97.601
+DONE: compiler=mpiicx N=8192 TILE=32 RANKS=2 TIME=11.265348 GFLOPS=97.601
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=8192 TILE=32 RANKS=4
+[mpi-scalapack-dgemm] N=8192 block=32 grid=2x2 ranks=4 elapsed=6.670925 s gflops=164.821
+DONE: compiler=mpiicx N=8192 TILE=32 RANKS=4 TIME=6.670925 GFLOPS=164.821
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=8192 TILE=32 RANKS=8
+[mpi-scalapack-dgemm] N=8192 block=32 grid=4x2 ranks=8 elapsed=5.175958 s gflops=212.427
+DONE: compiler=mpiicx N=8192 TILE=32 RANKS=8 TIME=5.175958 GFLOPS=212.427
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=8192 TILE=32 RANKS=16
+[mpi-scalapack-dgemm] N=8192 block=32 grid=4x4 ranks=16 elapsed=5.320668 s gflops=206.649
+DONE: compiler=mpiicx N=8192 TILE=32 RANKS=16 TIME=5.320668 GFLOPS=206.649
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=8192 TILE=32 RANKS=24
+[mpi-scalapack-dgemm] N=8192 block=32 grid=6x4 ranks=24 elapsed=5.698182 s gflops=192.958
+DONE: compiler=mpiicx N=8192 TILE=32 RANKS=24 TIME=5.698182 GFLOPS=192.958
+BUILD: compiler=mpiicx N=10240 TILE=32 FLAGS=-O3 -xHost
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=10240 TILE=32 RANKS=1
+[mpi-scalapack-dgemm] N=10240 block=32 grid=1x1 ranks=1 elapsed=34.401334 s gflops=62.424
+DONE: compiler=mpiicx N=10240 TILE=32 RANKS=1 TIME=34.401334 GFLOPS=62.424
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=10240 TILE=32 RANKS=2
+[mpi-scalapack-dgemm] N=10240 block=32 grid=2x1 ranks=2 elapsed=19.633460 s gflops=109.379
+DONE: compiler=mpiicx N=10240 TILE=32 RANKS=2 TIME=19.633460 GFLOPS=109.379
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=10240 TILE=32 RANKS=4
+[mpi-scalapack-dgemm] N=10240 block=32 grid=2x2 ranks=4 elapsed=10.936651 s gflops=196.357
+DONE: compiler=mpiicx N=10240 TILE=32 RANKS=4 TIME=10.936651 GFLOPS=196.357
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=10240 TILE=32 RANKS=8
+[mpi-scalapack-dgemm] N=10240 block=32 grid=4x2 ranks=8 elapsed=11.690028 s gflops=183.702
+DONE: compiler=mpiicx N=10240 TILE=32 RANKS=8 TIME=11.690028 GFLOPS=183.702
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=10240 TILE=32 RANKS=16
+[mpi-scalapack-dgemm] N=10240 block=32 grid=4x4 ranks=16 elapsed=11.061111 s gflops=194.147
+DONE: compiler=mpiicx N=10240 TILE=32 RANKS=16 TIME=11.061111 GFLOPS=194.147
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=10240 TILE=32 RANKS=24
+[mpi-scalapack-dgemm] N=10240 block=32 grid=6x4 ranks=24 elapsed=11.759514 s gflops=182.617
+DONE: compiler=mpiicx N=10240 TILE=32 RANKS=24 TIME=11.759514 GFLOPS=182.617
+BUILD: compiler=mpiicx N=12288 TILE=32 FLAGS=-O3 -xHost
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=12288 TILE=32 RANKS=1
+[mpi-scalapack-dgemm] N=12288 block=32 grid=1x1 ranks=1 elapsed=59.291659 s gflops=62.586
+DONE: compiler=mpiicx N=12288 TILE=32 RANKS=1 TIME=59.291659 GFLOPS=62.586
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=12288 TILE=32 RANKS=2
+[mpi-scalapack-dgemm] N=12288 block=32 grid=2x1 ranks=2 elapsed=35.165897 s gflops=105.524
+DONE: compiler=mpiicx N=12288 TILE=32 RANKS=2 TIME=35.165897 GFLOPS=105.524
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=12288 TILE=32 RANKS=4
+[mpi-scalapack-dgemm] N=12288 block=32 grid=2x2 ranks=4 elapsed=19.523633 s gflops=190.070
+DONE: compiler=mpiicx N=12288 TILE=32 RANKS=4 TIME=19.523633 GFLOPS=190.070
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=12288 TILE=32 RANKS=8
+[mpi-scalapack-dgemm] N=12288 block=32 grid=4x2 ranks=8 elapsed=17.092792 s gflops=217.100
+DONE: compiler=mpiicx N=12288 TILE=32 RANKS=8 TIME=17.092792 GFLOPS=217.100
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=12288 TILE=32 RANKS=16
+[mpi-scalapack-dgemm] N=12288 block=32 grid=4x4 ranks=16 elapsed=17.309822 s gflops=214.378
+DONE: compiler=mpiicx N=12288 TILE=32 RANKS=16 TIME=17.309822 GFLOPS=214.378
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=12288 TILE=32 RANKS=24
+[mpi-scalapack-dgemm] N=12288 block=32 grid=6x4 ranks=24 elapsed=17.794452 s gflops=208.540
+DONE: compiler=mpiicx N=12288 TILE=32 RANKS=24 TIME=17.794452 GFLOPS=208.540
+BUILD: compiler=mpiicx N=15000 TILE=32 FLAGS=-O3 -xHost
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=15000 TILE=32 RANKS=1
+[mpi-scalapack-dgemm] N=15000 block=32 grid=1x1 ranks=1 elapsed=107.953037 s gflops=62.527
+DONE: compiler=mpiicx N=15000 TILE=32 RANKS=1 TIME=107.953037 GFLOPS=62.527
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=15000 TILE=32 RANKS=2
+[mpi-scalapack-dgemm] N=15000 block=32 grid=2x1 ranks=2 elapsed=61.355275 s gflops=110.015
+DONE: compiler=mpiicx N=15000 TILE=32 RANKS=2 TIME=61.355275 GFLOPS=110.015
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=15000 TILE=32 RANKS=4
+[mpi-scalapack-dgemm] N=15000 block=32 grid=2x2 ranks=4 elapsed=35.460546 s gflops=190.352
+DONE: compiler=mpiicx N=15000 TILE=32 RANKS=4 TIME=35.460546 GFLOPS=190.352
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=15000 TILE=32 RANKS=8
+[mpi-scalapack-dgemm] N=15000 block=32 grid=4x2 ranks=8 elapsed=32.946065 s gflops=204.880
+DONE: compiler=mpiicx N=15000 TILE=32 RANKS=8 TIME=32.946065 GFLOPS=204.880
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=15000 TILE=32 RANKS=16
+[mpi-scalapack-dgemm] N=15000 block=32 grid=4x4 ranks=16 elapsed=32.544700 s gflops=207.407
+DONE: compiler=mpiicx N=15000 TILE=32 RANKS=16 TIME=32.544700 GFLOPS=207.407
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=15000 TILE=32 RANKS=24
+[mpi-scalapack-dgemm] N=15000 block=32 grid=6x4 ranks=24 elapsed=36.358408 s gflops=185.652
+DONE: compiler=mpiicx N=15000 TILE=32 RANKS=24 TIME=36.358408 GFLOPS=185.652
+BUILD: compiler=mpiicx N=6144 TILE=64 FLAGS=-O3 -xHost
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=6144 TILE=64 RANKS=1
+[mpi-scalapack-dgemm] N=6144 block=64 grid=1x1 ranks=1 elapsed=7.502117 s gflops=61.830
+DONE: compiler=mpiicx N=6144 TILE=64 RANKS=1 TIME=7.502117 GFLOPS=61.830
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=6144 TILE=64 RANKS=2
+[mpi-scalapack-dgemm] N=6144 block=64 grid=2x1 ranks=2 elapsed=4.446381 s gflops=104.322
+DONE: compiler=mpiicx N=6144 TILE=64 RANKS=2 TIME=4.446381 GFLOPS=104.322
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=6144 TILE=64 RANKS=4
+[mpi-scalapack-dgemm] N=6144 block=64 grid=2x2 ranks=4 elapsed=2.384588 s gflops=194.523
+DONE: compiler=mpiicx N=6144 TILE=64 RANKS=4 TIME=2.384588 GFLOPS=194.523
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=6144 TILE=64 RANKS=8
+[mpi-scalapack-dgemm] N=6144 block=64 grid=4x2 ranks=8 elapsed=1.862719 s gflops=249.021
+DONE: compiler=mpiicx N=6144 TILE=64 RANKS=8 TIME=1.862719 GFLOPS=249.021
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=6144 TILE=64 RANKS=16
+[mpi-scalapack-dgemm] N=6144 block=64 grid=4x4 ranks=16 elapsed=1.517497 s gflops=305.672
+DONE: compiler=mpiicx N=6144 TILE=64 RANKS=16 TIME=1.517497 GFLOPS=305.672
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=6144 TILE=64 RANKS=24
+[mpi-scalapack-dgemm] N=6144 block=64 grid=6x4 ranks=24 elapsed=1.652645 s gflops=280.675
+DONE: compiler=mpiicx N=6144 TILE=64 RANKS=24 TIME=1.652645 GFLOPS=280.675
+BUILD: compiler=mpiicx N=8192 TILE=64 FLAGS=-O3 -xHost
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=8192 TILE=64 RANKS=1
+[mpi-scalapack-dgemm] N=8192 block=64 grid=1x1 ranks=1 elapsed=17.785434 s gflops=61.821
+DONE: compiler=mpiicx N=8192 TILE=64 RANKS=1 TIME=17.785434 GFLOPS=61.821
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=8192 TILE=64 RANKS=2
+[mpi-scalapack-dgemm] N=8192 block=64 grid=2x1 ranks=2 elapsed=10.406821 s gflops=105.653
+DONE: compiler=mpiicx N=8192 TILE=64 RANKS=2 TIME=10.406821 GFLOPS=105.653
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=8192 TILE=64 RANKS=4
+[mpi-scalapack-dgemm] N=8192 block=64 grid=2x2 ranks=4 elapsed=5.622079 s gflops=195.570
+DONE: compiler=mpiicx N=8192 TILE=64 RANKS=4 TIME=5.622079 GFLOPS=195.570
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=8192 TILE=64 RANKS=8
+[mpi-scalapack-dgemm] N=8192 block=64 grid=4x2 ranks=8 elapsed=3.815189 s gflops=288.193
+DONE: compiler=mpiicx N=8192 TILE=64 RANKS=8 TIME=3.815189 GFLOPS=288.193
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=8192 TILE=64 RANKS=16
+[mpi-scalapack-dgemm] N=8192 block=64 grid=4x4 ranks=16 elapsed=3.365064 s gflops=326.743
+DONE: compiler=mpiicx N=8192 TILE=64 RANKS=16 TIME=3.365064 GFLOPS=326.743
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=8192 TILE=64 RANKS=24
+[mpi-scalapack-dgemm] N=8192 block=64 grid=6x4 ranks=24 elapsed=3.188822 s gflops=344.802
+DONE: compiler=mpiicx N=8192 TILE=64 RANKS=24 TIME=3.188822 GFLOPS=344.802
+BUILD: compiler=mpiicx N=10240 TILE=64 FLAGS=-O3 -xHost
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=10240 TILE=64 RANKS=1
+[mpi-scalapack-dgemm] N=10240 block=64 grid=1x1 ranks=1 elapsed=34.387916 s gflops=62.449
+DONE: compiler=mpiicx N=10240 TILE=64 RANKS=1 TIME=34.387916 GFLOPS=62.449
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=10240 TILE=64 RANKS=2
+[mpi-scalapack-dgemm] N=10240 block=64 grid=2x1 ranks=2 elapsed=20.510755 s gflops=104.700
+DONE: compiler=mpiicx N=10240 TILE=64 RANKS=2 TIME=20.510755 GFLOPS=104.700
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=10240 TILE=64 RANKS=4
+[mpi-scalapack-dgemm] N=10240 block=64 grid=2x2 ranks=4 elapsed=10.950450 s gflops=196.109
+DONE: compiler=mpiicx N=10240 TILE=64 RANKS=4 TIME=10.950450 GFLOPS=196.109
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=10240 TILE=64 RANKS=8
+[mpi-scalapack-dgemm] N=10240 block=64 grid=4x2 ranks=8 elapsed=8.243263 s gflops=260.514
+DONE: compiler=mpiicx N=10240 TILE=64 RANKS=8 TIME=8.243263 GFLOPS=260.514
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=10240 TILE=64 RANKS=16
+[mpi-scalapack-dgemm] N=10240 block=64 grid=4x4 ranks=16 elapsed=6.569707 s gflops=326.877
+DONE: compiler=mpiicx N=10240 TILE=64 RANKS=16 TIME=6.569707 GFLOPS=326.877
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=10240 TILE=64 RANKS=24
+[mpi-scalapack-dgemm] N=10240 block=64 grid=6x4 ranks=24 elapsed=6.186849 s gflops=347.105
+DONE: compiler=mpiicx N=10240 TILE=64 RANKS=24 TIME=6.186849 GFLOPS=347.105
+BUILD: compiler=mpiicx N=12288 TILE=64 FLAGS=-O3 -xHost
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=12288 TILE=64 RANKS=1
+[mpi-scalapack-dgemm] N=12288 block=64 grid=1x1 ranks=1 elapsed=59.558434 s gflops=62.306
+DONE: compiler=mpiicx N=12288 TILE=64 RANKS=1 TIME=59.558434 GFLOPS=62.306
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=12288 TILE=64 RANKS=2
+[mpi-scalapack-dgemm] N=12288 block=64 grid=2x1 ranks=2 elapsed=35.546031 s gflops=104.396
+DONE: compiler=mpiicx N=12288 TILE=64 RANKS=2 TIME=35.546031 GFLOPS=104.396
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=12288 TILE=64 RANKS=4
+[mpi-scalapack-dgemm] N=12288 block=64 grid=2x2 ranks=4 elapsed=19.157995 s gflops=193.697
+DONE: compiler=mpiicx N=12288 TILE=64 RANKS=4 TIME=19.157995 GFLOPS=193.697
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=12288 TILE=64 RANKS=8
+[mpi-scalapack-dgemm] N=12288 block=64 grid=4x2 ranks=8 elapsed=13.658486 s gflops=271.688
+DONE: compiler=mpiicx N=12288 TILE=64 RANKS=8 TIME=13.658486 GFLOPS=271.688
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=12288 TILE=64 RANKS=16
+[mpi-scalapack-dgemm] N=12288 block=64 grid=4x4 ranks=16 elapsed=10.888207 s gflops=340.814
+DONE: compiler=mpiicx N=12288 TILE=64 RANKS=16 TIME=10.888207 GFLOPS=340.814
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=12288 TILE=64 RANKS=24
+[mpi-scalapack-dgemm] N=12288 block=64 grid=6x4 ranks=24 elapsed=11.015578 s gflops=336.873
+DONE: compiler=mpiicx N=12288 TILE=64 RANKS=24 TIME=11.015578 GFLOPS=336.873
+BUILD: compiler=mpiicx N=15000 TILE=64 FLAGS=-O3 -xHost
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=15000 TILE=64 RANKS=1
+[mpi-scalapack-dgemm] N=15000 block=64 grid=1x1 ranks=1 elapsed=107.931571 s gflops=62.540
+DONE: compiler=mpiicx N=15000 TILE=64 RANKS=1 TIME=107.931571 GFLOPS=62.540
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=15000 TILE=64 RANKS=2
+[mpi-scalapack-dgemm] N=15000 block=64 grid=2x1 ranks=2 elapsed=61.753607 s gflops=109.305
+DONE: compiler=mpiicx N=15000 TILE=64 RANKS=2 TIME=61.753607 GFLOPS=109.305
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=15000 TILE=64 RANKS=4
+[mpi-scalapack-dgemm] N=15000 block=64 grid=2x2 ranks=4 elapsed=31.593490 s gflops=213.652
+DONE: compiler=mpiicx N=15000 TILE=64 RANKS=4 TIME=31.593490 GFLOPS=213.652
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=15000 TILE=64 RANKS=8
+[mpi-scalapack-dgemm] N=15000 block=64 grid=4x2 ranks=8 elapsed=21.650495 s gflops=311.771
+DONE: compiler=mpiicx N=15000 TILE=64 RANKS=8 TIME=21.650495 GFLOPS=311.771
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=15000 TILE=64 RANKS=16
+[mpi-scalapack-dgemm] N=15000 block=64 grid=4x4 ranks=16 elapsed=19.534994 s gflops=345.534
+DONE: compiler=mpiicx N=15000 TILE=64 RANKS=16 TIME=19.534994 GFLOPS=345.534
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=15000 TILE=64 RANKS=24
+[mpi-scalapack-dgemm] N=15000 block=64 grid=6x4 ranks=24 elapsed=21.251091 s gflops=317.631
+DONE: compiler=mpiicx N=15000 TILE=64 RANKS=24 TIME=21.251091 GFLOPS=317.631
+BUILD: compiler=mpiicx N=6144 TILE=128 FLAGS=-O3 -xHost
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=6144 TILE=128 RANKS=1
+[mpi-scalapack-dgemm] N=6144 block=128 grid=1x1 ranks=1 elapsed=7.442465 s gflops=62.326
+DONE: compiler=mpiicx N=6144 TILE=128 RANKS=1 TIME=7.442465 GFLOPS=62.326
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=6144 TILE=128 RANKS=2
+[mpi-scalapack-dgemm] N=6144 block=128 grid=2x1 ranks=2 elapsed=3.992962 s gflops=116.169
+DONE: compiler=mpiicx N=6144 TILE=128 RANKS=2 TIME=3.992962 GFLOPS=116.169
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=6144 TILE=128 RANKS=4
+[mpi-scalapack-dgemm] N=6144 block=128 grid=2x2 ranks=4 elapsed=2.089470 s gflops=221.997
+DONE: compiler=mpiicx N=6144 TILE=128 RANKS=4 TIME=2.089470 GFLOPS=221.997
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=6144 TILE=128 RANKS=8
+[mpi-scalapack-dgemm] N=6144 block=128 grid=4x2 ranks=8 elapsed=1.339540 s gflops=346.280
+DONE: compiler=mpiicx N=6144 TILE=128 RANKS=8 TIME=1.339540 GFLOPS=346.280
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=6144 TILE=128 RANKS=16
+[mpi-scalapack-dgemm] N=6144 block=128 grid=4x4 ranks=16 elapsed=1.330715 s gflops=348.577
+DONE: compiler=mpiicx N=6144 TILE=128 RANKS=16 TIME=1.330715 GFLOPS=348.577
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=6144 TILE=128 RANKS=24
+[mpi-scalapack-dgemm] N=6144 block=128 grid=6x4 ranks=24 elapsed=1.009483 s gflops=459.499
+DONE: compiler=mpiicx N=6144 TILE=128 RANKS=24 TIME=1.009483 GFLOPS=459.499
+BUILD: compiler=mpiicx N=8192 TILE=128 FLAGS=-O3 -xHost
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=8192 TILE=128 RANKS=1
+[mpi-scalapack-dgemm] N=8192 block=128 grid=1x1 ranks=1 elapsed=17.744893 s gflops=61.962
+DONE: compiler=mpiicx N=8192 TILE=128 RANKS=1 TIME=17.744893 GFLOPS=61.962
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=8192 TILE=128 RANKS=2
+[mpi-scalapack-dgemm] N=8192 block=128 grid=2x1 ranks=2 elapsed=9.234052 s gflops=119.071
+DONE: compiler=mpiicx N=8192 TILE=128 RANKS=2 TIME=9.234052 GFLOPS=119.071
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=8192 TILE=128 RANKS=4
+[mpi-scalapack-dgemm] N=8192 block=128 grid=2x2 ranks=4 elapsed=4.768246 s gflops=230.590
+DONE: compiler=mpiicx N=8192 TILE=128 RANKS=4 TIME=4.768246 GFLOPS=230.590
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=8192 TILE=128 RANKS=8
+[mpi-scalapack-dgemm] N=8192 block=128 grid=4x2 ranks=8 elapsed=2.893675 s gflops=379.971
+DONE: compiler=mpiicx N=8192 TILE=128 RANKS=8 TIME=2.893675 GFLOPS=379.971
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=8192 TILE=128 RANKS=16
+[mpi-scalapack-dgemm] N=8192 block=128 grid=4x4 ranks=16 elapsed=3.056757 s gflops=359.699
+DONE: compiler=mpiicx N=8192 TILE=128 RANKS=16 TIME=3.056757 GFLOPS=359.699
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=8192 TILE=128 RANKS=24
+[mpi-scalapack-dgemm] N=8192 block=128 grid=6x4 ranks=24 elapsed=2.230679 s gflops=492.904
+DONE: compiler=mpiicx N=8192 TILE=128 RANKS=24 TIME=2.230679 GFLOPS=492.904
+BUILD: compiler=mpiicx N=10240 TILE=128 FLAGS=-O3 -xHost
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=10240 TILE=128 RANKS=1
+[mpi-scalapack-dgemm] N=10240 block=128 grid=1x1 ranks=1 elapsed=34.388998 s gflops=62.447
+DONE: compiler=mpiicx N=10240 TILE=128 RANKS=1 TIME=34.388998 GFLOPS=62.447
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=10240 TILE=128 RANKS=2
+[mpi-scalapack-dgemm] N=10240 block=128 grid=2x1 ranks=2 elapsed=18.345324 s gflops=117.059
+DONE: compiler=mpiicx N=10240 TILE=128 RANKS=2 TIME=18.345324 GFLOPS=117.059
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=10240 TILE=128 RANKS=4
+[mpi-scalapack-dgemm] N=10240 block=128 grid=2x2 ranks=4 elapsed=9.406771 s gflops=228.291
+DONE: compiler=mpiicx N=10240 TILE=128 RANKS=4 TIME=9.406771 GFLOPS=228.291
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=10240 TILE=128 RANKS=8
+[mpi-scalapack-dgemm] N=10240 block=128 grid=4x2 ranks=8 elapsed=6.105759 s gflops=351.714
+DONE: compiler=mpiicx N=10240 TILE=128 RANKS=8 TIME=6.105759 GFLOPS=351.714
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=10240 TILE=128 RANKS=16
+[mpi-scalapack-dgemm] N=10240 block=128 grid=4x4 ranks=16 elapsed=5.867092 s gflops=366.022
+DONE: compiler=mpiicx N=10240 TILE=128 RANKS=16 TIME=5.867092 GFLOPS=366.022
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=10240 TILE=128 RANKS=24
+[mpi-scalapack-dgemm] N=10240 block=128 grid=6x4 ranks=24 elapsed=4.275364 s gflops=502.293
+DONE: compiler=mpiicx N=10240 TILE=128 RANKS=24 TIME=4.275364 GFLOPS=502.293
+BUILD: compiler=mpiicx N=12288 TILE=128 FLAGS=-O3 -xHost
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=12288 TILE=128 RANKS=1
+[mpi-scalapack-dgemm] N=12288 block=128 grid=1x1 ranks=1 elapsed=59.786651 s gflops=62.068
+DONE: compiler=mpiicx N=12288 TILE=128 RANKS=1 TIME=59.786651 GFLOPS=62.068
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=12288 TILE=128 RANKS=2
+[mpi-scalapack-dgemm] N=12288 block=128 grid=2x1 ranks=2 elapsed=31.069147 s gflops=119.438
+DONE: compiler=mpiicx N=12288 TILE=128 RANKS=2 TIME=31.069147 GFLOPS=119.438
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=12288 TILE=128 RANKS=4
+[mpi-scalapack-dgemm] N=12288 block=128 grid=2x2 ranks=4 elapsed=16.404353 s gflops=226.211
+DONE: compiler=mpiicx N=12288 TILE=128 RANKS=4 TIME=16.404353 GFLOPS=226.211
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=12288 TILE=128 RANKS=8
+[mpi-scalapack-dgemm] N=12288 block=128 grid=4x2 ranks=8 elapsed=10.636550 s gflops=348.877
+DONE: compiler=mpiicx N=12288 TILE=128 RANKS=8 TIME=10.636550 GFLOPS=348.877
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=12288 TILE=128 RANKS=16
+[mpi-scalapack-dgemm] N=12288 block=128 grid=4x4 ranks=16 elapsed=9.992040 s gflops=371.381
+DONE: compiler=mpiicx N=12288 TILE=128 RANKS=16 TIME=9.992040 GFLOPS=371.381
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=12288 TILE=128 RANKS=24
+[mpi-scalapack-dgemm] N=12288 block=128 grid=6x4 ranks=24 elapsed=7.222726 s gflops=513.774
+DONE: compiler=mpiicx N=12288 TILE=128 RANKS=24 TIME=7.222726 GFLOPS=513.774
+BUILD: compiler=mpiicx N=15000 TILE=128 FLAGS=-O3 -xHost
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=15000 TILE=128 RANKS=1
+[mpi-scalapack-dgemm] N=15000 block=128 grid=1x1 ranks=1 elapsed=107.936528 s gflops=62.537
+DONE: compiler=mpiicx N=15000 TILE=128 RANKS=1 TIME=107.936528 GFLOPS=62.537
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=15000 TILE=128 RANKS=2
+[mpi-scalapack-dgemm] N=15000 block=128 grid=2x1 ranks=2 elapsed=56.647269 s gflops=119.158
+DONE: compiler=mpiicx N=15000 TILE=128 RANKS=2 TIME=56.647269 GFLOPS=119.158
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=15000 TILE=128 RANKS=4
+[mpi-scalapack-dgemm] N=15000 block=128 grid=2x2 ranks=4 elapsed=29.090891 s gflops=232.031
+DONE: compiler=mpiicx N=15000 TILE=128 RANKS=4 TIME=29.090891 GFLOPS=232.031
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=15000 TILE=128 RANKS=8
+[mpi-scalapack-dgemm] N=15000 block=128 grid=4x2 ranks=8 elapsed=16.973807 s gflops=397.672
+DONE: compiler=mpiicx N=15000 TILE=128 RANKS=8 TIME=16.973807 GFLOPS=397.672
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=15000 TILE=128 RANKS=16
+[mpi-scalapack-dgemm] N=15000 block=128 grid=4x4 ranks=16 elapsed=18.090249 s gflops=373.129
+DONE: compiler=mpiicx N=15000 TILE=128 RANKS=16 TIME=18.090249 GFLOPS=373.129
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx FLAGS=-O3 -xHost N=15000 TILE=128 RANKS=24
+[mpi-scalapack-dgemm] N=15000 block=128 grid=6x4 ranks=24 elapsed=13.269614 s gflops=508.681
+DONE: compiler=mpiicx N=15000 TILE=128 RANKS=24 TIME=13.269614 GFLOPS=508.681
+BUILD: compiler=mpiicc N=6144 TILE=32 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=6144 TILE=32 RANKS=1
+[mpi-scalapack-dgemm] N=6144 block=32 grid=1x1 ranks=1 elapsed=7.441308 s gflops=62.335
+DONE: compiler=mpiicc N=6144 TILE=32 RANKS=1 TIME=7.441308 GFLOPS=62.335
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=6144 TILE=32 RANKS=2
+[mpi-scalapack-dgemm] N=6144 block=32 grid=2x1 ranks=2 elapsed=4.036137 s gflops=114.926
+DONE: compiler=mpiicc N=6144 TILE=32 RANKS=2 TIME=4.036137 GFLOPS=114.926
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=6144 TILE=32 RANKS=4
+[mpi-scalapack-dgemm] N=6144 block=32 grid=2x2 ranks=4 elapsed=2.329728 s gflops=199.103
+DONE: compiler=mpiicc N=6144 TILE=32 RANKS=4 TIME=2.329728 GFLOPS=199.103
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=6144 TILE=32 RANKS=8
+[mpi-scalapack-dgemm] N=6144 block=32 grid=4x2 ranks=8 elapsed=2.512340 s gflops=184.631
+DONE: compiler=mpiicc N=6144 TILE=32 RANKS=8 TIME=2.512340 GFLOPS=184.631
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=6144 TILE=32 RANKS=16
+[mpi-scalapack-dgemm] N=6144 block=32 grid=4x4 ranks=16 elapsed=2.439280 s gflops=190.161
+DONE: compiler=mpiicc N=6144 TILE=32 RANKS=16 TIME=2.439280 GFLOPS=190.161
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=6144 TILE=32 RANKS=24
+[mpi-scalapack-dgemm] N=6144 block=32 grid=6x4 ranks=24 elapsed=2.163764 s gflops=214.375
+DONE: compiler=mpiicc N=6144 TILE=32 RANKS=24 TIME=2.163764 GFLOPS=214.375
+BUILD: compiler=mpiicc N=8192 TILE=32 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=8192 TILE=32 RANKS=1
+[mpi-scalapack-dgemm] N=8192 block=32 grid=1x1 ranks=1 elapsed=17.611247 s gflops=62.432
+DONE: compiler=mpiicc N=8192 TILE=32 RANKS=1 TIME=17.611247 GFLOPS=62.432
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=8192 TILE=32 RANKS=2
+[mpi-scalapack-dgemm] N=8192 block=32 grid=2x1 ranks=2 elapsed=10.945159 s gflops=100.456
+DONE: compiler=mpiicc N=8192 TILE=32 RANKS=2 TIME=10.945159 GFLOPS=100.456
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=8192 TILE=32 RANKS=4
+[mpi-scalapack-dgemm] N=8192 block=32 grid=2x2 ranks=4 elapsed=6.722003 s gflops=163.569
+DONE: compiler=mpiicc N=8192 TILE=32 RANKS=4 TIME=6.722003 GFLOPS=163.569
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=8192 TILE=32 RANKS=8
+[mpi-scalapack-dgemm] N=8192 block=32 grid=4x2 ranks=8 elapsed=5.255459 s gflops=209.213
+DONE: compiler=mpiicc N=8192 TILE=32 RANKS=8 TIME=5.255459 GFLOPS=209.213
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=8192 TILE=32 RANKS=16
+[mpi-scalapack-dgemm] N=8192 block=32 grid=4x4 ranks=16 elapsed=5.307964 s gflops=207.144
+DONE: compiler=mpiicc N=8192 TILE=32 RANKS=16 TIME=5.307964 GFLOPS=207.144
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=8192 TILE=32 RANKS=24
+[mpi-scalapack-dgemm] N=8192 block=32 grid=6x4 ranks=24 elapsed=5.434745 s gflops=202.312
+DONE: compiler=mpiicc N=8192 TILE=32 RANKS=24 TIME=5.434745 GFLOPS=202.312
+BUILD: compiler=mpiicc N=10240 TILE=32 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=10240 TILE=32 RANKS=1
+[mpi-scalapack-dgemm] N=10240 block=32 grid=1x1 ranks=1 elapsed=34.399886 s gflops=62.427
+DONE: compiler=mpiicc N=10240 TILE=32 RANKS=1 TIME=34.399886 GFLOPS=62.427
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=10240 TILE=32 RANKS=2
+[mpi-scalapack-dgemm] N=10240 block=32 grid=2x1 ranks=2 elapsed=19.306413 s gflops=111.232
+DONE: compiler=mpiicc N=10240 TILE=32 RANKS=2 TIME=19.306413 GFLOPS=111.232
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=10240 TILE=32 RANKS=4
+[mpi-scalapack-dgemm] N=10240 block=32 grid=2x2 ranks=4 elapsed=10.648828 s gflops=201.664
+DONE: compiler=mpiicc N=10240 TILE=32 RANKS=4 TIME=10.648828 GFLOPS=201.664
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=10240 TILE=32 RANKS=8
+[mpi-scalapack-dgemm] N=10240 block=32 grid=4x2 ranks=8 elapsed=11.715895 s gflops=183.297
+DONE: compiler=mpiicc N=10240 TILE=32 RANKS=8 TIME=11.715895 GFLOPS=183.297
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=10240 TILE=32 RANKS=16
+[mpi-scalapack-dgemm] N=10240 block=32 grid=4x4 ranks=16 elapsed=11.056853 s gflops=194.222
+DONE: compiler=mpiicc N=10240 TILE=32 RANKS=16 TIME=11.056853 GFLOPS=194.222
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=10240 TILE=32 RANKS=24
+[mpi-scalapack-dgemm] N=10240 block=32 grid=6x4 ranks=24 elapsed=11.386136 s gflops=188.605
+DONE: compiler=mpiicc N=10240 TILE=32 RANKS=24 TIME=11.386136 GFLOPS=188.605
+BUILD: compiler=mpiicc N=12288 TILE=32 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=12288 TILE=32 RANKS=1
+[mpi-scalapack-dgemm] N=12288 block=32 grid=1x1 ranks=1 elapsed=59.300452 s gflops=62.577
+DONE: compiler=mpiicc N=12288 TILE=32 RANKS=1 TIME=59.300452 GFLOPS=62.577
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=12288 TILE=32 RANKS=2
+[mpi-scalapack-dgemm] N=12288 block=32 grid=2x1 ranks=2 elapsed=32.668927 s gflops=113.590
+DONE: compiler=mpiicc N=12288 TILE=32 RANKS=2 TIME=32.668927 GFLOPS=113.590
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=12288 TILE=32 RANKS=4
+[mpi-scalapack-dgemm] N=12288 block=32 grid=2x2 ranks=4 elapsed=19.180547 s gflops=193.470
+DONE: compiler=mpiicc N=12288 TILE=32 RANKS=4 TIME=19.180547 GFLOPS=193.470
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=12288 TILE=32 RANKS=8
+[mpi-scalapack-dgemm] N=12288 block=32 grid=4x2 ranks=8 elapsed=16.956455 s gflops=218.846
+DONE: compiler=mpiicc N=12288 TILE=32 RANKS=8 TIME=16.956455 GFLOPS=218.846
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=12288 TILE=32 RANKS=16
+[mpi-scalapack-dgemm] N=12288 block=32 grid=4x4 ranks=16 elapsed=17.218261 s gflops=215.518
+DONE: compiler=mpiicc N=12288 TILE=32 RANKS=16 TIME=17.218261 GFLOPS=215.518
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=12288 TILE=32 RANKS=24
+[mpi-scalapack-dgemm] N=12288 block=32 grid=6x4 ranks=24 elapsed=17.582638 s gflops=211.052
+DONE: compiler=mpiicc N=12288 TILE=32 RANKS=24 TIME=17.582638 GFLOPS=211.052
+BUILD: compiler=mpiicc N=15000 TILE=32 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=15000 TILE=32 RANKS=1
+[mpi-scalapack-dgemm] N=15000 block=32 grid=1x1 ranks=1 elapsed=107.991230 s gflops=62.505
+DONE: compiler=mpiicc N=15000 TILE=32 RANKS=1 TIME=107.991230 GFLOPS=62.505
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=15000 TILE=32 RANKS=2
+[mpi-scalapack-dgemm] N=15000 block=32 grid=2x1 ranks=2 elapsed=60.776779 s gflops=111.062
+DONE: compiler=mpiicc N=15000 TILE=32 RANKS=2 TIME=60.776779 GFLOPS=111.062
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=15000 TILE=32 RANKS=4
+[mpi-scalapack-dgemm] N=15000 block=32 grid=2x2 ranks=4 elapsed=35.494741 s gflops=190.169
+DONE: compiler=mpiicc N=15000 TILE=32 RANKS=4 TIME=35.494741 GFLOPS=190.169
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=15000 TILE=32 RANKS=8
+[mpi-scalapack-dgemm] N=15000 block=32 grid=4x2 ranks=8 elapsed=32.776748 s gflops=205.939
+DONE: compiler=mpiicc N=15000 TILE=32 RANKS=8 TIME=32.776748 GFLOPS=205.939
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=15000 TILE=32 RANKS=16
+[mpi-scalapack-dgemm] N=15000 block=32 grid=4x4 ranks=16 elapsed=32.503811 s gflops=207.668
+DONE: compiler=mpiicc N=15000 TILE=32 RANKS=16 TIME=32.503811 GFLOPS=207.668
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=15000 TILE=32 RANKS=24
+[mpi-scalapack-dgemm] N=15000 block=32 grid=6x4 ranks=24 elapsed=36.248192 s gflops=186.216
+DONE: compiler=mpiicc N=15000 TILE=32 RANKS=24 TIME=36.248192 GFLOPS=186.216
+BUILD: compiler=mpiicc N=6144 TILE=64 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=6144 TILE=64 RANKS=1
+[mpi-scalapack-dgemm] N=6144 block=64 grid=1x1 ranks=1 elapsed=7.502938 s gflops=61.823
+DONE: compiler=mpiicc N=6144 TILE=64 RANKS=1 TIME=7.502938 GFLOPS=61.823
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=6144 TILE=64 RANKS=2
+[mpi-scalapack-dgemm] N=6144 block=64 grid=2x1 ranks=2 elapsed=4.368343 s gflops=106.186
+DONE: compiler=mpiicc N=6144 TILE=64 RANKS=2 TIME=4.368343 GFLOPS=106.186
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=6144 TILE=64 RANKS=4
+[mpi-scalapack-dgemm] N=6144 block=64 grid=2x2 ranks=4 elapsed=2.393102 s gflops=193.831
+DONE: compiler=mpiicc N=6144 TILE=64 RANKS=4 TIME=2.393102 GFLOPS=193.831
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=6144 TILE=64 RANKS=8
+[mpi-scalapack-dgemm] N=6144 block=64 grid=4x2 ranks=8 elapsed=1.879853 s gflops=246.751
+DONE: compiler=mpiicc N=6144 TILE=64 RANKS=8 TIME=1.879853 GFLOPS=246.751
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=6144 TILE=64 RANKS=16
+[mpi-scalapack-dgemm] N=6144 block=64 grid=4x4 ranks=16 elapsed=1.503222 s gflops=308.575
+DONE: compiler=mpiicc N=6144 TILE=64 RANKS=16 TIME=1.503222 GFLOPS=308.575
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=6144 TILE=64 RANKS=24
+[mpi-scalapack-dgemm] N=6144 block=64 grid=6x4 ranks=24 elapsed=1.590055 s gflops=291.724
+DONE: compiler=mpiicc N=6144 TILE=64 RANKS=24 TIME=1.590055 GFLOPS=291.724
+BUILD: compiler=mpiicc N=8192 TILE=64 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=8192 TILE=64 RANKS=1
+[mpi-scalapack-dgemm] N=8192 block=64 grid=1x1 ranks=1 elapsed=17.613035 s gflops=62.426
+DONE: compiler=mpiicc N=8192 TILE=64 RANKS=1 TIME=17.613035 GFLOPS=62.426
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=8192 TILE=64 RANKS=2
+[mpi-scalapack-dgemm] N=8192 block=64 grid=2x1 ranks=2 elapsed=10.399442 s gflops=105.728
+DONE: compiler=mpiicc N=8192 TILE=64 RANKS=2 TIME=10.399442 GFLOPS=105.728
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=8192 TILE=64 RANKS=4
+[mpi-scalapack-dgemm] N=8192 block=64 grid=2x2 ranks=4 elapsed=5.716607 s gflops=192.336
+DONE: compiler=mpiicc N=8192 TILE=64 RANKS=4 TIME=5.716607 GFLOPS=192.336
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=8192 TILE=64 RANKS=8
+[mpi-scalapack-dgemm] N=8192 block=64 grid=4x2 ranks=8 elapsed=3.934450 s gflops=279.458
+DONE: compiler=mpiicc N=8192 TILE=64 RANKS=8 TIME=3.934450 GFLOPS=279.458
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=8192 TILE=64 RANKS=16
+[mpi-scalapack-dgemm] N=8192 block=64 grid=4x4 ranks=16 elapsed=3.361776 s gflops=327.063
+DONE: compiler=mpiicc N=8192 TILE=64 RANKS=16 TIME=3.361776 GFLOPS=327.063
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=8192 TILE=64 RANKS=24
+[mpi-scalapack-dgemm] N=8192 block=64 grid=6x4 ranks=24 elapsed=3.121532 s gflops=352.235
+DONE: compiler=mpiicc N=8192 TILE=64 RANKS=24 TIME=3.121532 GFLOPS=352.235
+BUILD: compiler=mpiicc N=10240 TILE=64 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=10240 TILE=64 RANKS=1
+[mpi-scalapack-dgemm] N=10240 block=64 grid=1x1 ranks=1 elapsed=34.389884 s gflops=62.445
+DONE: compiler=mpiicc N=10240 TILE=64 RANKS=1 TIME=34.389884 GFLOPS=62.445
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=10240 TILE=64 RANKS=2
+[mpi-scalapack-dgemm] N=10240 block=64 grid=2x1 ranks=2 elapsed=20.394723 s gflops=105.296
+DONE: compiler=mpiicc N=10240 TILE=64 RANKS=2 TIME=20.394723 GFLOPS=105.296
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=10240 TILE=64 RANKS=4
+[mpi-scalapack-dgemm] N=10240 block=64 grid=2x2 ranks=4 elapsed=10.967238 s gflops=195.809
+DONE: compiler=mpiicc N=10240 TILE=64 RANKS=4 TIME=10.967238 GFLOPS=195.809
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=10240 TILE=64 RANKS=8
+[mpi-scalapack-dgemm] N=10240 block=64 grid=4x2 ranks=8 elapsed=8.280991 s gflops=259.327
+DONE: compiler=mpiicc N=10240 TILE=64 RANKS=8 TIME=8.280991 GFLOPS=259.327
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=10240 TILE=64 RANKS=16
+[mpi-scalapack-dgemm] N=10240 block=64 grid=4x4 ranks=16 elapsed=6.571808 s gflops=326.772
+DONE: compiler=mpiicc N=10240 TILE=64 RANKS=16 TIME=6.571808 GFLOPS=326.772
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=10240 TILE=64 RANKS=24
+[mpi-scalapack-dgemm] N=10240 block=64 grid=6x4 ranks=24 elapsed=6.803674 s gflops=315.636
+DONE: compiler=mpiicc N=10240 TILE=64 RANKS=24 TIME=6.803674 GFLOPS=315.636
+BUILD: compiler=mpiicc N=12288 TILE=64 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=12288 TILE=64 RANKS=1
+[mpi-scalapack-dgemm] N=12288 block=64 grid=1x1 ranks=1 elapsed=59.417820 s gflops=62.454
+DONE: compiler=mpiicc N=12288 TILE=64 RANKS=1 TIME=59.417820 GFLOPS=62.454
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=12288 TILE=64 RANKS=2
+[mpi-scalapack-dgemm] N=12288 block=64 grid=2x1 ranks=2 elapsed=35.020772 s gflops=105.961
+DONE: compiler=mpiicc N=12288 TILE=64 RANKS=2 TIME=35.020772 GFLOPS=105.961
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=12288 TILE=64 RANKS=4
+[mpi-scalapack-dgemm] N=12288 block=64 grid=2x2 ranks=4 elapsed=19.211578 s gflops=193.157
+DONE: compiler=mpiicc N=12288 TILE=64 RANKS=4 TIME=19.211578 GFLOPS=193.157
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=12288 TILE=64 RANKS=8
+[mpi-scalapack-dgemm] N=12288 block=64 grid=4x2 ranks=8 elapsed=12.852621 s gflops=288.723
+DONE: compiler=mpiicc N=12288 TILE=64 RANKS=8 TIME=12.852621 GFLOPS=288.723
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=12288 TILE=64 RANKS=16
+[mpi-scalapack-dgemm] N=12288 block=64 grid=4x4 ranks=16 elapsed=10.835158 s gflops=342.482
+DONE: compiler=mpiicc N=12288 TILE=64 RANKS=16 TIME=10.835158 GFLOPS=342.482
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=12288 TILE=64 RANKS=24
+[mpi-scalapack-dgemm] N=12288 block=64 grid=6x4 ranks=24 elapsed=10.893253 s gflops=340.656
+DONE: compiler=mpiicc N=12288 TILE=64 RANKS=24 TIME=10.893253 GFLOPS=340.656
+BUILD: compiler=mpiicc N=15000 TILE=64 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=15000 TILE=64 RANKS=1
+[mpi-scalapack-dgemm] N=15000 block=64 grid=1x1 ranks=1 elapsed=107.938223 s gflops=62.536
+DONE: compiler=mpiicc N=15000 TILE=64 RANKS=1 TIME=107.938223 GFLOPS=62.536
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=15000 TILE=64 RANKS=2
+[mpi-scalapack-dgemm] N=15000 block=64 grid=2x1 ranks=2 elapsed=60.681060 s gflops=111.237
+DONE: compiler=mpiicc N=15000 TILE=64 RANKS=2 TIME=60.681060 GFLOPS=111.237
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=15000 TILE=64 RANKS=4
+[mpi-scalapack-dgemm] N=15000 block=64 grid=2x2 ranks=4 elapsed=31.995474 s gflops=210.967
+DONE: compiler=mpiicc N=15000 TILE=64 RANKS=4 TIME=31.995474 GFLOPS=210.967
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=15000 TILE=64 RANKS=8
+[mpi-scalapack-dgemm] N=15000 block=64 grid=4x2 ranks=8 elapsed=21.029531 s gflops=320.977
+DONE: compiler=mpiicc N=15000 TILE=64 RANKS=8 TIME=21.029531 GFLOPS=320.977
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=15000 TILE=64 RANKS=16
+[mpi-scalapack-dgemm] N=15000 block=64 grid=4x4 ranks=16 elapsed=19.653465 s gflops=343.451
+DONE: compiler=mpiicc N=15000 TILE=64 RANKS=16 TIME=19.653465 GFLOPS=343.451
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=15000 TILE=64 RANKS=24
+[mpi-scalapack-dgemm] N=15000 block=64 grid=6x4 ranks=24 elapsed=19.279334 s gflops=350.116
+DONE: compiler=mpiicc N=15000 TILE=64 RANKS=24 TIME=19.279334 GFLOPS=350.116
+BUILD: compiler=mpiicc N=6144 TILE=128 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=6144 TILE=128 RANKS=1
+[mpi-scalapack-dgemm] N=6144 block=128 grid=1x1 ranks=1 elapsed=7.442949 s gflops=62.322
+DONE: compiler=mpiicc N=6144 TILE=128 RANKS=1 TIME=7.442949 GFLOPS=62.322
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=6144 TILE=128 RANKS=2
+[mpi-scalapack-dgemm] N=6144 block=128 grid=2x1 ranks=2 elapsed=3.950391 s gflops=117.420
+DONE: compiler=mpiicc N=6144 TILE=128 RANKS=2 TIME=3.950391 GFLOPS=117.420
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=6144 TILE=128 RANKS=4
+[mpi-scalapack-dgemm] N=6144 block=128 grid=2x2 ranks=4 elapsed=2.092948 s gflops=221.628
+DONE: compiler=mpiicc N=6144 TILE=128 RANKS=4 TIME=2.092948 GFLOPS=221.628
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=6144 TILE=128 RANKS=8
+[mpi-scalapack-dgemm] N=6144 block=128 grid=4x2 ranks=8 elapsed=1.468046 s gflops=315.969
+DONE: compiler=mpiicc N=6144 TILE=128 RANKS=8 TIME=1.468046 GFLOPS=315.969
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=6144 TILE=128 RANKS=16
+[mpi-scalapack-dgemm] N=6144 block=128 grid=4x4 ranks=16 elapsed=1.331455 s gflops=348.383
+DONE: compiler=mpiicc N=6144 TILE=128 RANKS=16 TIME=1.331455 GFLOPS=348.383
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=6144 TILE=128 RANKS=24
+[mpi-scalapack-dgemm] N=6144 block=128 grid=6x4 ranks=24 elapsed=1.061556 s gflops=436.959
+DONE: compiler=mpiicc N=6144 TILE=128 RANKS=24 TIME=1.061556 GFLOPS=436.959
+BUILD: compiler=mpiicc N=8192 TILE=128 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=8192 TILE=128 RANKS=1
+[mpi-scalapack-dgemm] N=8192 block=128 grid=1x1 ranks=1 elapsed=17.613922 s gflops=62.423
+DONE: compiler=mpiicc N=8192 TILE=128 RANKS=1 TIME=17.613922 GFLOPS=62.423
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=8192 TILE=128 RANKS=2
+[mpi-scalapack-dgemm] N=8192 block=128 grid=2x1 ranks=2 elapsed=9.534606 s gflops=115.318
+DONE: compiler=mpiicc N=8192 TILE=128 RANKS=2 TIME=9.534606 GFLOPS=115.318
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=8192 TILE=128 RANKS=4
+[mpi-scalapack-dgemm] N=8192 block=128 grid=2x2 ranks=4 elapsed=4.771220 s gflops=230.447
+DONE: compiler=mpiicc N=8192 TILE=128 RANKS=4 TIME=4.771220 GFLOPS=230.447
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=8192 TILE=128 RANKS=8
+[mpi-scalapack-dgemm] N=8192 block=128 grid=4x2 ranks=8 elapsed=3.272994 s gflops=335.935
+DONE: compiler=mpiicc N=8192 TILE=128 RANKS=8 TIME=3.272994 GFLOPS=335.935
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=8192 TILE=128 RANKS=16
+[mpi-scalapack-dgemm] N=8192 block=128 grid=4x4 ranks=16 elapsed=3.053719 s gflops=360.057
+DONE: compiler=mpiicc N=8192 TILE=128 RANKS=16 TIME=3.053719 GFLOPS=360.057
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=8192 TILE=128 RANKS=24
+[mpi-scalapack-dgemm] N=8192 block=128 grid=6x4 ranks=24 elapsed=3.219146 s gflops=341.554
+DONE: compiler=mpiicc N=8192 TILE=128 RANKS=24 TIME=3.219146 GFLOPS=341.554
+BUILD: compiler=mpiicc N=10240 TILE=128 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=10240 TILE=128 RANKS=1
+[mpi-scalapack-dgemm] N=10240 block=128 grid=1x1 ranks=1 elapsed=34.496038 s gflops=62.253
+DONE: compiler=mpiicc N=10240 TILE=128 RANKS=1 TIME=34.496038 GFLOPS=62.253
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=10240 TILE=128 RANKS=2
+[mpi-scalapack-dgemm] N=10240 block=128 grid=2x1 ranks=2 elapsed=18.086265 s gflops=118.736
+DONE: compiler=mpiicc N=10240 TILE=128 RANKS=2 TIME=18.086265 GFLOPS=118.736
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=10240 TILE=128 RANKS=4
+[mpi-scalapack-dgemm] N=10240 block=128 grid=2x2 ranks=4 elapsed=9.287365 s gflops=231.226
+DONE: compiler=mpiicc N=10240 TILE=128 RANKS=4 TIME=9.287365 GFLOPS=231.226
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=10240 TILE=128 RANKS=8
+[mpi-scalapack-dgemm] N=10240 block=128 grid=4x2 ranks=8 elapsed=6.023873 s gflops=356.496
+DONE: compiler=mpiicc N=10240 TILE=128 RANKS=8 TIME=6.023873 GFLOPS=356.496
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=10240 TILE=128 RANKS=16
+[mpi-scalapack-dgemm] N=10240 block=128 grid=4x4 ranks=16 elapsed=5.875347 s gflops=365.508
+DONE: compiler=mpiicc N=10240 TILE=128 RANKS=16 TIME=5.875347 GFLOPS=365.508
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=10240 TILE=128 RANKS=24
+[mpi-scalapack-dgemm] N=10240 block=128 grid=6x4 ranks=24 elapsed=4.690414 s gflops=457.845
+DONE: compiler=mpiicc N=10240 TILE=128 RANKS=24 TIME=4.690414 GFLOPS=457.845
+BUILD: compiler=mpiicc N=12288 TILE=128 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=12288 TILE=128 RANKS=1
+[mpi-scalapack-dgemm] N=12288 block=128 grid=1x1 ranks=1 elapsed=59.286001 s gflops=62.592
+DONE: compiler=mpiicc N=12288 TILE=128 RANKS=1 TIME=59.286001 GFLOPS=62.592
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=12288 TILE=128 RANKS=2
+[mpi-scalapack-dgemm] N=12288 block=128 grid=2x1 ranks=2 elapsed=31.451954 s gflops=117.985
+DONE: compiler=mpiicc N=12288 TILE=128 RANKS=2 TIME=31.451954 GFLOPS=117.985
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=12288 TILE=128 RANKS=4
+[mpi-scalapack-dgemm] N=12288 block=128 grid=2x2 ranks=4 elapsed=15.863367 s gflops=233.926
+DONE: compiler=mpiicc N=12288 TILE=128 RANKS=4 TIME=15.863367 GFLOPS=233.926
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=12288 TILE=128 RANKS=8
+[mpi-scalapack-dgemm] N=12288 block=128 grid=4x2 ranks=8 elapsed=9.288750 s gflops=399.500
+DONE: compiler=mpiicc N=12288 TILE=128 RANKS=8 TIME=9.288750 GFLOPS=399.500
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=12288 TILE=128 RANKS=16
+[mpi-scalapack-dgemm] N=12288 block=128 grid=4x4 ranks=16 elapsed=10.028921 s gflops=370.015
+DONE: compiler=mpiicc N=12288 TILE=128 RANKS=16 TIME=10.028921 GFLOPS=370.015
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=12288 TILE=128 RANKS=24
+[mpi-scalapack-dgemm] N=12288 block=128 grid=6x4 ranks=24 elapsed=7.839707 s gflops=473.341
+DONE: compiler=mpiicc N=12288 TILE=128 RANKS=24 TIME=7.839707 GFLOPS=473.341
+BUILD: compiler=mpiicc N=15000 TILE=128 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=15000 TILE=128 RANKS=1
+[mpi-scalapack-dgemm] N=15000 block=128 grid=1x1 ranks=1 elapsed=107.949478 s gflops=62.529
+DONE: compiler=mpiicc N=15000 TILE=128 RANKS=1 TIME=107.949478 GFLOPS=62.529
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=15000 TILE=128 RANKS=2
+[mpi-scalapack-dgemm] N=15000 block=128 grid=2x1 ranks=2 elapsed=56.685839 s gflops=119.077
+DONE: compiler=mpiicc N=15000 TILE=128 RANKS=2 TIME=56.685839 GFLOPS=119.077
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=15000 TILE=128 RANKS=4
+[mpi-scalapack-dgemm] N=15000 block=128 grid=2x2 ranks=4 elapsed=29.049242 s gflops=232.364
+DONE: compiler=mpiicc N=15000 TILE=128 RANKS=4 TIME=29.049242 GFLOPS=232.364
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=15000 TILE=128 RANKS=8
+[mpi-scalapack-dgemm] N=15000 block=128 grid=4x2 ranks=8 elapsed=17.632100 s gflops=382.824
+DONE: compiler=mpiicc N=15000 TILE=128 RANKS=8 TIME=17.632100 GFLOPS=382.824
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=15000 TILE=128 RANKS=16
+[mpi-scalapack-dgemm] N=15000 block=128 grid=4x4 ranks=16 elapsed=18.129001 s gflops=372.332
+DONE: compiler=mpiicc N=15000 TILE=128 RANKS=16 TIME=18.129001 GFLOPS=372.332
+RUN: CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc FLAGS=-O3 -xHost N=15000 TILE=128 RANKS=24
+[mpi-scalapack-dgemm] N=15000 block=128 grid=6x4 ranks=24 elapsed=12.975616 s gflops=520.206
+DONE: compiler=mpiicc N=15000 TILE=128 RANKS=24 TIME=12.975616 GFLOPS=520.206
+BUILD: compiler=mpiicx N=6144 TILE=32 FLAGS=-O3 -xHost
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=6144 TILE=32 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=6144 TILE=32 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=6144 TILE=32 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=6144 TILE=32 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=6144 TILE=32 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=6144 TILE=32 RANKS=24
+BUILD: compiler=mpiicx N=8192 TILE=32 FLAGS=-O3 -xHost
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=8192 TILE=32 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=8192 TILE=32 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=8192 TILE=32 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=8192 TILE=32 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=8192 TILE=32 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=8192 TILE=32 RANKS=24
+BUILD: compiler=mpiicx N=10240 TILE=32 FLAGS=-O3 -xHost
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=10240 TILE=32 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=10240 TILE=32 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=10240 TILE=32 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=10240 TILE=32 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=10240 TILE=32 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=10240 TILE=32 RANKS=24
+BUILD: compiler=mpiicx N=12288 TILE=32 FLAGS=-O3 -xHost
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=12288 TILE=32 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=12288 TILE=32 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=12288 TILE=32 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=12288 TILE=32 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=12288 TILE=32 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=12288 TILE=32 RANKS=24
+BUILD: compiler=mpiicx N=15000 TILE=32 FLAGS=-O3 -xHost
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=15000 TILE=32 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=15000 TILE=32 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=15000 TILE=32 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=15000 TILE=32 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=15000 TILE=32 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=15000 TILE=32 RANKS=24
+BUILD: compiler=mpiicx N=6144 TILE=64 FLAGS=-O3 -xHost
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=6144 TILE=64 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=6144 TILE=64 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=6144 TILE=64 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=6144 TILE=64 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=6144 TILE=64 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=6144 TILE=64 RANKS=24
+BUILD: compiler=mpiicx N=8192 TILE=64 FLAGS=-O3 -xHost
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=8192 TILE=64 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=8192 TILE=64 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=8192 TILE=64 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=8192 TILE=64 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=8192 TILE=64 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=8192 TILE=64 RANKS=24
+BUILD: compiler=mpiicx N=10240 TILE=64 FLAGS=-O3 -xHost
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=10240 TILE=64 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=10240 TILE=64 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=10240 TILE=64 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=10240 TILE=64 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=10240 TILE=64 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=10240 TILE=64 RANKS=24
+BUILD: compiler=mpiicx N=12288 TILE=64 FLAGS=-O3 -xHost
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=12288 TILE=64 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=12288 TILE=64 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=12288 TILE=64 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=12288 TILE=64 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=12288 TILE=64 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=12288 TILE=64 RANKS=24
+BUILD: compiler=mpiicx N=15000 TILE=64 FLAGS=-O3 -xHost
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=15000 TILE=64 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=15000 TILE=64 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=15000 TILE=64 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=15000 TILE=64 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=15000 TILE=64 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=15000 TILE=64 RANKS=24
+BUILD: compiler=mpiicx N=6144 TILE=128 FLAGS=-O3 -xHost
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=6144 TILE=128 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=6144 TILE=128 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=6144 TILE=128 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=6144 TILE=128 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=6144 TILE=128 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=6144 TILE=128 RANKS=24
+BUILD: compiler=mpiicx N=8192 TILE=128 FLAGS=-O3 -xHost
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=8192 TILE=128 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=8192 TILE=128 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=8192 TILE=128 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=8192 TILE=128 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=8192 TILE=128 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=8192 TILE=128 RANKS=24
+BUILD: compiler=mpiicx N=10240 TILE=128 FLAGS=-O3 -xHost
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=10240 TILE=128 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=10240 TILE=128 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=10240 TILE=128 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=10240 TILE=128 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=10240 TILE=128 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=10240 TILE=128 RANKS=24
+BUILD: compiler=mpiicx N=12288 TILE=128 FLAGS=-O3 -xHost
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=12288 TILE=128 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=12288 TILE=128 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=12288 TILE=128 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=12288 TILE=128 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=12288 TILE=128 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=12288 TILE=128 RANKS=24
+BUILD: compiler=mpiicx N=15000 TILE=128 FLAGS=-O3 -xHost
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=15000 TILE=128 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=15000 TILE=128 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=15000 TILE=128 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=15000 TILE=128 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=15000 TILE=128 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicx flags=-O3 -xHost N=15000 TILE=128 RANKS=24
+BUILD: compiler=mpiicc N=6144 TILE=32 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=6144 TILE=32 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=6144 TILE=32 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=6144 TILE=32 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=6144 TILE=32 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=6144 TILE=32 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=6144 TILE=32 RANKS=24
+BUILD: compiler=mpiicc N=8192 TILE=32 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=8192 TILE=32 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=8192 TILE=32 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=8192 TILE=32 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=8192 TILE=32 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=8192 TILE=32 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=8192 TILE=32 RANKS=24
+BUILD: compiler=mpiicc N=10240 TILE=32 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=10240 TILE=32 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=10240 TILE=32 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=10240 TILE=32 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=10240 TILE=32 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=10240 TILE=32 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=10240 TILE=32 RANKS=24
+BUILD: compiler=mpiicc N=12288 TILE=32 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=12288 TILE=32 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=12288 TILE=32 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=12288 TILE=32 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=12288 TILE=32 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=12288 TILE=32 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=12288 TILE=32 RANKS=24
+BUILD: compiler=mpiicc N=15000 TILE=32 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=15000 TILE=32 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=15000 TILE=32 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=15000 TILE=32 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=15000 TILE=32 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=15000 TILE=32 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=15000 TILE=32 RANKS=24
+BUILD: compiler=mpiicc N=6144 TILE=64 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=6144 TILE=64 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=6144 TILE=64 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=6144 TILE=64 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=6144 TILE=64 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=6144 TILE=64 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=6144 TILE=64 RANKS=24
+BUILD: compiler=mpiicc N=8192 TILE=64 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=8192 TILE=64 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=8192 TILE=64 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=8192 TILE=64 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=8192 TILE=64 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=8192 TILE=64 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=8192 TILE=64 RANKS=24
+BUILD: compiler=mpiicc N=10240 TILE=64 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=10240 TILE=64 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=10240 TILE=64 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=10240 TILE=64 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=10240 TILE=64 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=10240 TILE=64 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=10240 TILE=64 RANKS=24
+BUILD: compiler=mpiicc N=12288 TILE=64 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=12288 TILE=64 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=12288 TILE=64 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=12288 TILE=64 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=12288 TILE=64 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=12288 TILE=64 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=12288 TILE=64 RANKS=24
+BUILD: compiler=mpiicc N=15000 TILE=64 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=15000 TILE=64 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=15000 TILE=64 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=15000 TILE=64 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=15000 TILE=64 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=15000 TILE=64 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=15000 TILE=64 RANKS=24
+BUILD: compiler=mpiicc N=6144 TILE=128 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=6144 TILE=128 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=6144 TILE=128 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=6144 TILE=128 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=6144 TILE=128 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=6144 TILE=128 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=6144 TILE=128 RANKS=24
+BUILD: compiler=mpiicc N=8192 TILE=128 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=8192 TILE=128 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=8192 TILE=128 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=8192 TILE=128 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=8192 TILE=128 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=8192 TILE=128 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=8192 TILE=128 RANKS=24
+BUILD: compiler=mpiicc N=10240 TILE=128 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=10240 TILE=128 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=10240 TILE=128 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=10240 TILE=128 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=10240 TILE=128 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=10240 TILE=128 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=10240 TILE=128 RANKS=24
+BUILD: compiler=mpiicc N=12288 TILE=128 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=12288 TILE=128 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=12288 TILE=128 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=12288 TILE=128 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=12288 TILE=128 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=12288 TILE=128 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=12288 TILE=128 RANKS=24
+BUILD: compiler=mpiicc N=15000 TILE=128 FLAGS=-O3 -xHost
+icc: remark #10441: The Intel(R) C++ Compiler Classic (ICC) is deprecated and will be removed from product release in the second half of 2023. The Intel(R) oneAPI DPC++/C++ Compiler (ICX) is the recommended compiler moving forward. Please transition to use this compiler. Use '-diag-disable=10441' to disable this message.
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=15000 TILE=128 RANKS=1
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=15000 TILE=128 RANKS=2
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=15000 TILE=128 RANKS=4
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=15000 TILE=128 RANKS=8
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=15000 TILE=128 RANKS=16
+SKIP: already done | CPU=12th Gen Intel(R) Core(TM) i9-12900K compiler=mpiicc flags=-O3 -xHost N=15000 TILE=128 RANKS=24

@@ -1,0 +1,2 @@
+chmod +x bench_mpi_base_light.sh
+./bench_mpi_base_light.sh
