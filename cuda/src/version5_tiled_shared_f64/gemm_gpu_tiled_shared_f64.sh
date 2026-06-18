@@ -17,7 +17,7 @@ N_LIST=(6144 8192 10240 12288 15000 16400)
 BLOCK_LIST=("16 16" "32 8" "32 16" "32 32")
 
 # مثل روش دوستت: Shared Double فقط با Tile/StageK = 16
-# این باعث می‌شود خروجی تمیزتر و اجرای Colab سبک‌تر باشد.
+
 STAGEK_LIST=(16)
 
 for BK in "${BLOCK_LIST[@]}"; do
